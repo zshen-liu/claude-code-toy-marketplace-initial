@@ -1,0 +1,26 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e119]:
+    - banner [ref=e120]:
+      - button [ref=e121] [cursor=pointer]:
+        - img
+      - button "Marketplace Logo" [ref=e123] [cursor=pointer]:
+        - img "Marketplace Logo" [ref=e124]
+      - generic [ref=e125]:
+        - button [ref=e126] [cursor=pointer]:
+          - generic [ref=e127]:
+            - img
+        - button [ref=e128] [cursor=pointer]:
+          - img
+    - main [ref=e130]:
+      - link "+ Create listing" [ref=e132] [cursor=pointer]:
+        - /url: /create-listing/new
+        - button "+ Create listing" [ref=e133]:
+          - img
+          - text: + Create listing
+      - generic [ref=e135]:
+        - heading "Overview" [level=1] [ref=e136]
+        - paragraph [ref=e137]: Your active listings
+      - paragraph [ref=e139]: You have no active listings

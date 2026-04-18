@@ -1,0 +1,50 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - button [ref=e5] [cursor=pointer]:
+        - img
+      - button "Marketplace Logo" [ref=e7] [cursor=pointer]:
+        - img "Marketplace Logo" [ref=e8]
+      - generic [ref=e9]:
+        - button [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]:
+            - img
+        - button [ref=e12] [cursor=pointer]:
+          - img
+    - generic [ref=e14]:
+      - heading "Account" [level=1] [ref=e15]
+      - generic [ref=e16]:
+        - heading "Profile information" [level=2] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Name
+            - generic [ref=e22]: Alex Tanner
+          - generic [ref=e23]:
+            - generic [ref=e24]: E-mail
+            - generic [ref=e25]: alex.tanner.7291@mailtest.com
+          - generic [ref=e26]:
+            - generic [ref=e27]: Password
+            - generic [ref=e28]: "**********"
+      - generic [ref=e29]:
+        - heading "Activity" [level=2] [ref=e30]
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: You have (0) listings
+            - link "View listings" [ref=e34] [cursor=pointer]:
+              - /url: /create-listing
+          - generic [ref=e35]:
+            - generic [ref=e36]: You have (0) unread messages
+            - link "View messages" [ref=e37] [cursor=pointer]:
+              - /url: /messages
+          - generic [ref=e38]:
+            - generic [ref=e39]: You have (0) saved products
+            - link "View all saved products" [ref=e40] [cursor=pointer]:
+              - /url: /saved-items
+      - generic [ref=e41]:
+        - link "Return Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+          - button "Return Home" [ref=e43]
+        - button "Sign Out" [ref=e44] [cursor=pointer]

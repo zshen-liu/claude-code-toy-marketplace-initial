@@ -1,0 +1,54 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e140]:
+    - banner [ref=e141]:
+      - button [ref=e142] [cursor=pointer]:
+        - img
+      - button "Marketplace Logo" [ref=e144] [cursor=pointer]:
+        - img "Marketplace Logo" [ref=e145]
+      - generic [ref=e146]:
+        - button [ref=e147] [cursor=pointer]:
+          - generic [ref=e148]:
+            - img
+        - button [ref=e149] [cursor=pointer]:
+          - img
+    - main [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e155] [cursor=pointer]:
+            - generic [ref=e193]:
+              - img "Upload 1" [ref=e194]
+              - button "×" [ref=e195]
+            - img [ref=e197]
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: Upload up to 5 photos
+            - button "Fill with sample data" [ref=e162] [cursor=pointer]:
+              - img [ref=e163]
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: Product name
+            - textbox "Product name" [ref=e169]
+          - generic [ref=e170]:
+            - generic [ref=e171]: Price
+            - spinbutton "Price" [ref=e172]
+          - generic [ref=e173]:
+            - generic [ref=e174]: Color
+            - textbox "Color" [ref=e175]
+          - generic [ref=e176]:
+            - generic [ref=e177]: Leather
+            - textbox "Leather" [ref=e178]
+          - generic [ref=e179]:
+            - generic [ref=e180]: Year purchased
+            - spinbutton "Year purchased" [ref=e181]
+          - generic [ref=e182]:
+            - generic [ref=e183]: Stamp
+            - textbox "Stamp" [ref=e184]
+          - generic [ref=e185]:
+            - generic [ref=e186]: Location
+            - textbox "Location" [ref=e187]
+          - generic [ref=e188]:
+            - generic [ref=e189]: Description
+            - textbox "Description" [ref=e190]
+        - button "Publish" [ref=e192] [cursor=pointer]

@@ -1,0 +1,39 @@
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list [ref=e60]:
+      - status [ref=e199]:
+        - generic [ref=e200]:
+          - generic [ref=e201]: Listing published
+          - generic [ref=e202]: Your product has been posted.
+        - button [ref=e203] [cursor=pointer]:
+          - img [ref=e204]
+  - region "Notifications alt+T"
+  - generic [ref=e208]:
+    - banner [ref=e209]:
+      - button [ref=e210] [cursor=pointer]:
+        - img
+      - button "Marketplace Logo" [ref=e212] [cursor=pointer]:
+        - img "Marketplace Logo" [ref=e213]
+      - generic [ref=e214]:
+        - button [ref=e215] [cursor=pointer]:
+          - generic [ref=e216]:
+            - img
+        - button [ref=e217] [cursor=pointer]:
+          - img
+    - main [ref=e219]:
+      - link "+ Create listing" [ref=e221] [cursor=pointer]:
+        - /url: /create-listing/new
+        - button "+ Create listing" [ref=e222]:
+          - img
+          - text: + Create listing
+      - generic [ref=e224]:
+        - heading "Overview" [level=1] [ref=e225]
+        - paragraph [ref=e226]: Your active listings
+      - generic [ref=e228] [cursor=pointer]:
+        - img "Good Cars" [ref=e232]
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - heading "Good Cars" [level=3] [ref=e235]
+            - link "Edit" [ref=e236]:
+              - /url: /create-listing/edit/50fd0fba-68d2-4d6d-bb86-d5b2f10fa6f0
+          - generic [ref=e237]: $50
